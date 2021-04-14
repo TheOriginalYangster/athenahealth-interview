@@ -1,0 +1,14 @@
+.Sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  padding: 20px;
+  min-width: 200px;
+  &-header {
+    margin-bottom: 15px;
+  }
+
+}

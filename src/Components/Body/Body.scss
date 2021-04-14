@@ -1,0 +1,17 @@
+.Body {
+  grid-column-start: 2;
+  grid-row-start: 2;
+
+  &-items{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+
+    &-spinner {
+      margin: auto auto;
+    }
+  }
+
+}

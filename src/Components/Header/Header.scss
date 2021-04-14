@@ -1,0 +1,27 @@
+$headerColor: salmon;
+
+
+.Header {
+  background-color: $headerColor;
+  grid-column-start: 1;
+  grid-column-end: end;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+
+  &-title {
+    font-weight: 700;
+    font-size: 1.75em;
+    color: white;
+    margin-left: 25px;
+  }
+
+  &-searchbar {
+    margin-right: 65px;
+    margin-top: 15px;
+  }
+}

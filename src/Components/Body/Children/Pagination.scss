@@ -1,0 +1,22 @@
+
+.Pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2em;
+  padding: 20px 0;
+
+  &-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    button {
+      margin: 5px;
+    }
+
+    span {
+      margin: 5px;
+    }
+  }
+}

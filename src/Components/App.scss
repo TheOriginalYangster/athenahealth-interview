@@ -1,0 +1,10 @@
+::placeholder {
+  color: white;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 200px;
+  grid-template-rows: 80px;
+  height: 100%;
+}
