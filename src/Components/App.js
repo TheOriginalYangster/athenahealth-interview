@@ -36,7 +36,7 @@ function App() {
     const repos = data.items
     const total_count = data.total_count
 
-    if(repos){
+    if(repos && repos.length > 0){
       //Checking for largest star count -- most
       let max = repos[0].stargazers_count
       if(max > most) setMost(max)
